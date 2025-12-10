@@ -3,7 +3,6 @@
   min-height: calc(100vh - 80px);
   display: flex;
   align-items: center;
-  background-color: #030921;
 }
 
 .hero-container {
@@ -40,6 +39,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 0 0 0;
 }
 
 .hero-description {
@@ -133,6 +140,10 @@
   .hero-title {
     font-size: 2.5rem;
   }
+
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -142,6 +153,10 @@
 
   .hero-title {
     font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.125rem;
   }
 
   .hero-description {

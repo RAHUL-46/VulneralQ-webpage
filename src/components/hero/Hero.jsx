@@ -7,8 +7,11 @@ function Hero() {
         <div className="hero-left">
           <div className="hero-content">
             <h1 className="hero-title">
-              Welcome to <span className="gradient-text">VulneralQ</span>
+              <span className="gradient-text">VulneralQ</span>
             </h1>
+            <h2 className="hero-subtitle">
+              Advanced Vulnerability Assessment & Security Management
+            </h2>
             <p className="hero-description">
               Your comprehensive solution for vulnerability assessment and security management. 
               Protect your digital assets with advanced threat detection and real-time monitoring.

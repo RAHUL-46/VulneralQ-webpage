@@ -2,7 +2,7 @@ import './Hero.css';
 
 function Hero() {
   return (
-    <section className="hero">
+    <section id="home" className="hero">
       <div className="hero-container">
         <div className="hero-left">
           <div className="hero-content">
@@ -13,11 +13,7 @@ function Hero() {
               Advanced Vulnerability Assessment & Security Management
             </h2>
             <p className="hero-description">
-              Your comprehensive solution for vulnerability assessment and security management. 
-              Protect your digital assets with advanced threat detection and real-time monitoring.
-            </p>
-            <p className="hero-description">
-              Stay ahead of cyber threats with our cutting-edge platform designed for modern security needs.
+              Comprehensive vulnerability scanning, real-time threat detection, automated security management, and advanced analytics—all in one powerful platform.
             </p>
           </div>
           <div className="hero-buttons">

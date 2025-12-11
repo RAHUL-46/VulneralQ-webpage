@@ -1,6 +1,14 @@
 import './Navbar.css';
 
 function Navbar() {
+  const handleSmoothScroll = (e, targetId) => {
+    e.preventDefault();
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <nav className="navbar">
       <div className="nav-container">
@@ -9,10 +17,10 @@ function Navbar() {
         </div>
         <ul className="nav-menu">
           <li className="nav-item">
-            <a href="#home" className="nav-link">Home</a>
+            <a href="#home" className="nav-link" onClick={(e) => handleSmoothScroll(e, 'home')}>Home</a>
           </li>
           <li className="nav-item">
-            <a href="#features" className="nav-link">Features</a>
+            <a href="#features" className="nav-link" onClick={(e) => handleSmoothScroll(e, 'features')}>Features</a>
           </li>
           <li className="nav-item">
             <a href="#solutions" className="nav-link">Solutions</a>

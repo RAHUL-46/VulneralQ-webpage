@@ -95,13 +95,8 @@
   max-width: 500px;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: none;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
   position: relative;
-  padding: 50px;
-  background: rgba(53, 58, 77, 0.4);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(53, 58, 77, 0.3);
   opacity: 0;
 }
 
@@ -114,7 +109,7 @@
   height: auto;
   display: block;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 16px;
 }
 
 .features-right {
